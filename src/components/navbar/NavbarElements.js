@@ -30,13 +30,13 @@ export const NavbarContainer = styled.div`
 
 export const NavLogo = styled(LinkR)`
     color:#fff;
-    width:100%;
     height:80px;
     display:flex;
     justify-self: flex-start;
     cursor:pointer;
     align-items: center;
     margin-left: 24px;
+    font-size:1.5rem;
     font-weight: bold;
     text-decoration: none;
 `;
@@ -75,6 +75,8 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
     height:80px;
+    padding: 0 24px;
+
 `;
 
 export const NavLinks = styled(LinkS)`
