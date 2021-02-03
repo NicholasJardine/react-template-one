@@ -94,5 +94,5 @@ export const SidebarRoute = styled(LinkR)`
         transition: all 0.2s ease-in-out;
         background: #fff;
         color: #010606;
-}
+    }
 `
