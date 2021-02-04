@@ -18,6 +18,7 @@ import {Link} from 'react-scroll'
     jusify-conten:center;
     align-items:center;
     transition: all 0.2s ease-in-out;
+    cursor:pointer;
 
     &:hover{
         transition: all 0.2s ease-in-out;
