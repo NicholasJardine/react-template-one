@@ -1,23 +1,23 @@
 import React from 'react'
-import { Button } from 'react-scroll'
+import Button from '../ButtonElement'
 import { InfoContainer, InfoWrapper, InfoRow, Heading, Column1, Column2, TextWrapper, Subtitle, BtnWrap, TopLine, ImgWrap, Img} from './InfoElements'
 
 
-const InfoSection = () => {
+const InfoSection = ({lightBg, img, id, imgStart, description, topLine, lightText, darkText, headline, buttonLabel, alt }) => {
     return (
         <>
-            <InfoContainer>
+            <InfoContainer lightBg={lightBg} id={id}>
                 <InfoWrapper>
 
-                    <InfoRow>
+                    <InfoRow imgStart={imgStart}>
                         <Column1>
                         <TextWrapper>
-                            <TopLine>Topline</TopLine>
-                            <Heading>Heading</Heading>
-                            <Subtitle>Subtitle</Subtitle>
+                            <TopLine lightText={lightText}>{topLine}</TopLine>
+                            <Heading>{headline}</Heading>
+                            <Subtitle darkText={darkText}>{description}</Subtitle>
                                         <BtnWrap>
-
                                             <Button to="home">
+                                                {buttonLabel}
                                             </Button>
                                         </BtnWrap>
                         </TextWrapper>
@@ -25,7 +25,7 @@ const InfoSection = () => {
                         </Column1>
                         <Column2>
                         <ImgWrap>
-                            <Img></Img>
+                            <Img src={img} alt={alt}></Img>
                         </ImgWrap>
                         </Column2>
                     </InfoRow>
