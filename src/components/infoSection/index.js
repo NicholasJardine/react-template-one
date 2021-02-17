@@ -10,13 +10,13 @@ const InfoSection = ({lightBg, img, id, imgStart, description, topLine, lightTex
     return (
         <>
             <InfoContainer lightBg={lightBg} id={id}>
-                <InfoWrapper>
+                <InfoWrapper lightBg={lightBg}>
 
-                    <InfoRow imgStart={imgStart}>
+                    <InfoRow imgStart={imgStart} lightBg={lightBg}>
                         <Column1>
                         <TextWrapper>
                             <TopLine lightText={lightText}>{topLine}</TopLine>
-                            <Heading>{headline}</Heading>
+                            <Heading lightText={lightText}>{headline}</Heading>
                             <Subtitle darkText={darkText}>{description}</Subtitle>
                                         <BtnWrap>
                                             <Button to="home"                                                          smooth={true}

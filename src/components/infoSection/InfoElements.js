@@ -15,14 +15,14 @@ export const InfoWrapper = styled.div`
     z-index: 1;
     height:860px;
     width:100%;
-    max-width:1100px;
     position:absolute;
     padding: 0 24px;
     display:grid;
     justify-content:center;
     margin-left:auto;
     margin-right:auto;
-`
+    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')
+};`
 
 export const InfoRow = styled.div`
     display:grid;
@@ -80,6 +80,7 @@ export const Heading = styled.h1`
 export const Subtitle = styled.p`
     max-width:440px;
     margin-bottom:35px;
+    margin-top:35px;
     font-size:18px;
     line-height:24px;
     font-weight:600;
