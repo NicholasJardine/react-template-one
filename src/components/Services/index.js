@@ -1,5 +1,11 @@
 import React from 'react'
 
+import Icon1 from '../../images/svg-1.svg'
+import Icon2 from '../../images/svg-2.svg'
+import Icon3 from '../../images/svg-3.svg'
+import {ServicesContainer, ServicesP, ServicesH2, ServicesH1, ServicesIcon, ServicesCard, ServicesWrapper} from './ServicesElements'
+
+
 const Services = () => {
     return (
         <ServicesContainer id="services">
