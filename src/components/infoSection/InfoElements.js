@@ -15,7 +15,7 @@ export const InfoWrapper = styled.div`
     z-index: 1;
     height:860px;
     width:100%;
-    position:absolute;
+    // position:absolute;
     padding: 0 24px;
     display:grid;
     justify-content:center;

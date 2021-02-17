@@ -14,3 +14,20 @@ export const homeObjOne = {
     primary: true,
     darkText:false
 };
+
+export const homeObjTwo = {
+    id: 'discover',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: true,
+    topLine: 'Premium Bank',
+    headline: 'Second Section',
+    description: 'This section is overlapping the other section and it is grating my tits',
+    buttonLabel: 'Get Started',
+    imgStart: true,
+    img: require ('../../images/svg-2.svg'),
+    alt: 'Car',
+    dark: true,
+    primary: true,
+    darkText:true
+};
