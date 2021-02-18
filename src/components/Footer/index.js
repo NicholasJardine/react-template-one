@@ -11,30 +11,30 @@ const Footer = () => {
                         <FooterLinkItems>
                             <FooterLinkTitle>About Us</FooterLinkTitle>
 
-                            <FooterLink to="/signin">How it works</FooterLink>
-                            <FooterLink to="/siginin">Testimonials</FooterLink>
-                            <FooterLink to="/siginin">Careers</FooterLink>
-                            <FooterLink to="/siginin">Investors</FooterLink>
-                            <FooterLink to="/siginin">Terms of Service</FooterLink>
+                            <FooterLink to="/">How it works</FooterLink>
+                            <FooterLink to="/">Testimonials</FooterLink>
+                            <FooterLink to="/">Careers</FooterLink>
+                            <FooterLink to="/">Investors</FooterLink>
+                            <FooterLink to="/">Terms of Service</FooterLink>
                         </FooterLinkItems>
 
 
                         <FooterLinkItems>
                             <FooterLinkTitle>Videos</FooterLinkTitle>
 
-                            <FooterLink to="/signin">Submit Video</FooterLink>
-                            <FooterLink to="/siginin">Ambassadors</FooterLink>
-                            <FooterLink to="/siginin">Agency</FooterLink>
-                            <FooterLink to="/siginin">Influencer</FooterLink>
-                            <FooterLink to="/siginin">Terms of Service</FooterLink>
+                            <FooterLink to="/">Submit Video</FooterLink>
+                            <FooterLink to="/">Ambassadors</FooterLink>
+                            <FooterLink to="/">Agency</FooterLink>
+                            <FooterLink to="/">Influencer</FooterLink>
+                            <FooterLink to="/">Terms of Service</FooterLink>
                         </FooterLinkItems>
 
 
                         <FooterLinkItems>
                             <FooterLinkTitle>Contact Us</FooterLinkTitle>
 
-                            <FooterLink to="/signin">Contact</FooterLink>
-                            <FooterLink to="/siginin">Support</FooterLink>
+                            <FooterLink to="/">Contact</FooterLink>
+                            <FooterLink to="/">Support</FooterLink>
                             <FooterLink to="/siginin">Destinations</FooterLink>
                             <FooterLink to="/siginin">Sponsorships</FooterLink>
                     
@@ -43,10 +43,10 @@ const Footer = () => {
                         <FooterLinkItems>
                             <FooterLinkTitle>Social Media</FooterLinkTitle>
 
-                            <FooterLink to="/signin">Instagram</FooterLink>
-                            <FooterLink to="/siginin">Facebook</FooterLink>
-                            <FooterLink to="/siginin">Youtube</FooterLink>
-                            <FooterLink to="/siginin">Twitter</FooterLink>
+                            <FooterLink to="/">Instagram</FooterLink>
+                            <FooterLink to="/">Facebook</FooterLink>
+                            <FooterLink to="/">Youtube</FooterLink>
+                            <FooterLink to="/">Twitter</FooterLink>
                 
                         </FooterLinkItems>
 
