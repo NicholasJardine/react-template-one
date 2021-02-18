@@ -52,6 +52,14 @@ const Footer = () => {
 
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
+                <SocialMedia>
+                    <SocialMediaWrap>
+                        <SocialLogo to='/'>
+                            Golden
+                        </SocialLogo>
+                        <WebsiteRights>Golden</WebsiteRights>
+                    </SocialMediaWrap>
+                </SocialMedia>
             </FooterWrap>
             
         </FooterContainer>
