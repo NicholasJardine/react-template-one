@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 
+// {Container, Text, FormButton,FormContent, FormH1, FormLabel, FormInput, FormWrap, Form, Icon}
 export const Container = styled.div`
   min-height:692px;
   position: fixed;
@@ -82,7 +83,7 @@ export const FormContent = styled.div`
     display:flex;
     flex-direction: column;
     justify-content:center;
-
+    background:#01BF71;
     @media screen and (max-width:480px){
         padding:10px;
     }
