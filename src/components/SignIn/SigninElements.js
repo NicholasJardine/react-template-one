@@ -120,6 +120,6 @@ export const FormWrap = styled.div`
     @media screen and (max-width:480px){
      height:100%;
     background: #01BF71;
-    padding-bottom:80px;
+    padding-bottom:40px;
     }
 `;
