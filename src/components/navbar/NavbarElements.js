@@ -47,7 +47,7 @@ export const MobileIcon = styled.div`
     z-index: 1;
     max-width: 1100px;
     padding: 0 24px;
-
+    margin-right:-54px;
     @media screen and (max-width:768px) {
         display:block;
         position:absolute;
