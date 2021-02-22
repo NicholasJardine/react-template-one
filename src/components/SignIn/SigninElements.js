@@ -97,7 +97,6 @@ color:#fff;
 font-weight:700;
 font-size:32px;
 
-
     @media screen and (max-width:480px){
         margin-left:16px;
         margin-top:8px;
@@ -109,6 +108,7 @@ export const FormWrap = styled.div`
     display:flex;
     flex-direction: column;
     justify-content:center;
+    background: #01BF71;
 
     @media screen and (max-width:480px){
      height:80%;
